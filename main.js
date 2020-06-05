@@ -20,7 +20,7 @@ function redirecttoanimation(){
     window.location.href = "Animation.html";
 }
 function redirecttohome(){
-    window.location.href = "index.html";
+    window.location.href = "..";
 }
 function redirecttopc(){
     window.location.href = "PoliceChicken.html";
