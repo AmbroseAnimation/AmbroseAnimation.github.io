@@ -1,0 +1,231 @@
+<html>
+    <head>
+        <title>AMBROSE ANIMATION</title>
+        <link rel="icon" href="Logo.jpg" type="image/jpg">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+        <style>
+            .info{
+                color: #001f00;
+                position: relative;
+                left: 301px;
+                padding: 10px;
+                width: calc(100% - 321px);
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 1.3em;
+            }
+            .title{
+                color: #001f00;
+                position: relative;
+                left: 301px;
+                padding: 10px;
+                width: calc(100% - 321px);
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 1.55em;    
+            }
+            .titlee{
+                color: #001f00;
+                position: relative;
+                left: 301px;
+                padding: 10px;
+                width: calc(100% - 321px);
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 1em; 
+            }
+            .handburger{
+                background: none; 
+                position: absolute;
+                border: none;
+            }
+            .banner{
+                position: sticky;
+                top: 0;
+                z-index: 10;
+            }
+            .banner,.bannerimg{
+                width: 100%;
+                margin: 0;
+                border: 0;
+                padding: 0;
+            }
+            .lop{
+                position: absolute;
+                width: 300px;
+                margin: 0;
+                padding: 0;
+            }
+            .lopdiv{
+                position: sticky;
+                top: 300px;
+            }
+            .policechicken{
+                width: 200px;
+                margin: 10px;
+                position: absolute;
+                left: 320px;
+                
+            }
+            .bunny{
+                width: 250px;
+                margin: 10px;
+                position: absolute; 
+                left: 1000px;
+            }
+            .screen{
+                width: 250px;
+                margin: 10px;
+                left: 580px;
+                position: relative;
+            }
+            .police{
+                color: #001f00;
+                position: relative;
+                left: 301px;
+                padding: 10px;
+                width: calc(100% - 321px);
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 1.3em;
+            }
+            .pic{
+                width: 400px;
+                margin: 10px;
+                left: 50%;
+                padding: 10px;
+                position: relative;
+            }
+            .sidebar{
+                transform: translateX(-200px) translateY(-500px);
+                background-color: #5f8219;
+                left: 0px;
+                position: fixed;
+                z-index: 20;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 10px;
+                transition: 265ms ease-in-out;
+            }
+            @keyframes movesb {
+                0%   {transform: translateX(-200px);}
+                100% {transform: translateX(-0px);}
+            }
+            .backbar{
+                z-index: -2;
+                background-color: white;
+                position: fixed;
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                top: 0;
+                
+            }
+            .sbutton{
+                background-color: #5f8219;
+                margin-right: 10px;
+                border: none;
+                width: 175px;
+                right: 100;
+                border: none;
+            }
+            .sbutton:focus{
+                outline: none;
+                background-color:#496413 ;
+            }
+            .lino{
+                list-style: none;
+                list-style-position: inside;
+            }
+            .buttonlist{
+                padding-left: 5px;
+            }
+            .buttontyp{
+                color: #001f00;               
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 1.75em;
+            }
+            .off{
+                top: 0;
+                left: 0;
+                margin: 0;
+                padding: 0;
+                border: 0;
+                z-index: -20;
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+        </style>
+  
+    </head>
+    <body style="margin: 0;">
+        <div class="backbar"></div>
+        <button class="off" id="offbtn"></button>
+        <div class="sidebar" id="sidebarid">
+            <ul class="buttonlist">
+                <li class="lino">
+                    <button id="homebtn" class="sbutton">
+                        <p class="buttontyp">
+                            Home
+                        </p>
+                    </button>
+                </li>
+                <li class="lino">
+                    <button id="anbtn" class="sbutton">
+                        <p class="buttontyp">
+                            Animations
+                        </p>
+                    </button>
+                </li>
+                <li class="lino">
+                    <button id="pcbtn" class="sbutton">
+                        <p class="buttontyp">
+                            Police Chicken
+                        </p>
+                    </button>
+                </li>
+                <li class="lino">
+                    <button id="abbtn" class="sbutton">
+                        <p class="buttontyp">
+                            About
+                        </p>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="handfunk" id="handfunky">
+            
+        </div>
+        <div class="banner">
+            <button class="handburger" id="handburgerid">
+                <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+            </button>
+            <img class="bannerimg" src="banner.png">
+        </div>
+        <div class="lopdiv">
+            <img src="logo.png" class="lop">
+        </div>
+        <p class="title">
+           Police Chicken!
+        </p>
+        <p class="titlee">
+      
+         </p>
+
+        <p class="info">
+            We are currently working on a computer animated 2d movie. The Police Chicken Movie. It does include stop motion animation but the film is mostly 2d animation. This movie that we are currently working on, is still in the very early stages of planning, story boarding, finding voice actors, animators and other people that will work on the film. Police Chicken is a… well… a Police Chicken. He is a one of a kind creature fighting for good. And in this case fighting against The Big Bad Bunny!
+        </p>
+     
+        
+        </p>
+        <img class="policechicken" src="police chicken.jpg">
+        <img class="bunny" src="tower.png">
+        <img class="screen" src="Police Chicken.png">
+
+        <p class="police">
+            Police Chicken Is a film that Ambrose Animation are currently working on. In it, there is the main character, Police chicken, and his enemy, The Big Bad Bunny. Police Chicken is as close to being a superhero without being one, as you can get. Thought at the start of the movie police Chicken is applying to be a superhero. The Police Chicken Movie is a comedy and an adventure movie with laughs and scares.
+            But police chicken isn't just a movie. Police chicken is a character with a movie based on him.
+        </p>
+    
+        <img class="pic" src="pic.jpg">
+        <script src="main.js"></script>
+</html>
