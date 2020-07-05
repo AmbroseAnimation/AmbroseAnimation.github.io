@@ -17,14 +17,14 @@ function handfunkoff(){
     document.getElementById("offbtn").style.zIndex = "-20";
 }
 function redirecttoanimation(){
-    window.location.href = "Animation.html";
+    window.location.href = "Animation";
 }
 function redirecttohome(){
     window.location.href = "..";
 }
 function redirecttopc(){
-    window.location.href = "PoliceChicken.html";
+    window.location.href = "PoliceChicken";
 }
 function redirecttoab(){
-    window.location.href = "about.html";
+    window.location.href = "about";
 }
